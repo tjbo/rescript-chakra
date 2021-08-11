@@ -79,4 +79,21 @@ module Size = {
       | xs
     ]
   }
+  module Spinner = {
+    type t = [
+      | xs
+      | sm
+      | md
+      | lg
+      | xl
+    ]
+  }
+  module Progress = {
+    type t = [
+      | xs
+      | sm
+      | md
+      | lg
+    ]
+  }
 }
